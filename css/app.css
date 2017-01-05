@@ -1,0 +1,78 @@
+h1, h2, h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	line-height: 65px;
+}
+
+
+.header{
+	background-image: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 160px 0;
+}
+
+.section-info-title{
+	padding-top: 90px;
+	padding-bottom: 60px;
+}
+.steps-container{
+	padding-bottom: 140px;
+}
+
+.print-category{
+	background-color: #0067FE;
+	color: #fff;
+	padding-top: 134px;
+	padding-bottom: 160px; 
+}
+.catg-1, .catg-2, .catg-3,
+.catg-4, .catg-5, .catg-6{
+	width: 145px;
+	height: 118px;
+	border: 2px solid #fff;
+	background: none;
+}
+.catg-1:hover, .catg-2:hover, .catg-3:hover,
+.catg-4:hover, .catg-5:hover, .catg-6:hover{
+	background-color: #fff;
+	color: #0067FE;
+	transition: all .3s;
+	box-shadow: 0px 16px 20px 0px rgba(0, 0, 0, 0.55);
+}
+.second-col{
+	padding-top: 30px;
+}
+.categories a{
+	color: #fff;
+}
+
+
+.feature-section{
+	padding: 150px 0;
+
+}
+
+
+.footer-section{
+	background-color: #E7F4FD;
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+.footer-section p{
+	font-size: 16px;
+	padding-left: 0px;
+}
+.footer-section h3{
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
