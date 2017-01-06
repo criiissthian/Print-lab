@@ -26,6 +26,17 @@ h1, h2, h3{
 	padding-top: 134px;
 	padding-bottom: 160px; 
 }
+.print-category-caption h2{
+	font-size: 38px;
+	line-height: 38px;
+	padding-left: 15px;
+}
+.print-category-caption p{
+	font-size: 16px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+
 .catg-1, .catg-2, .catg-3,
 .catg-4, .catg-5, .catg-6{
 	width: 145px;
@@ -59,12 +70,79 @@ h1, h2, h3{
 	padding-top: 40px;
 	padding-bottom: 60px;
 }
+.footer-section-a p{
+	display: inline-block;
+	padding-right: 70px;
+}
 .footer-section p{
 	font-size: 16px;
 	padding-left: 0px;
 }
 .footer-section h3{
 	line-height: 30px;
+}
+
+
+
+
+/*** RESPONSIVE DESIGN ***/
+
+/*Header*/
+@media screen and (max-width: 1300px){
+	.header{
+		background-image: url('../img/bg-1300.jpg');
+	}
+}
+
+@media screen and (max-width: 1230px){
+	.header{
+		background-image: url('../img/bg-1199.jpg');
+	}
+}
+@media screen and (max-width: 1130px){
+	.header{
+		background-image: url('../img/bg-1024.jpg');
+	}
+}
+
+@media screen and (max-width: 1199px){
+	.header h1{
+		font-size: 54px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.header{
+		background-image: url('../img/bg-768.jpg');
+	}
+	.header h1{
+		font-size: 48px;
+		line-height: 50px;
+	}
+	.header p{
+		font-size: 18px;
+	}
+}
+
+/*Section Info*/
+@media screen and (max-width: 991px){
+	.material, .archivo, .entrega, .calidad, .comodidad, .tiempo{
+		padding-bottom: 31px;
+	}
+}
+
+/*Category*/
+@media screen and (max-width: 767px){
+	.first-col, .second-col{
+		display: inline-block;
+		padding-left: 15px;
+	}
+	.first-col div, .second-col div{
+		padding-bottom: 15px;
+	}
+	.print-category-caption{
+		text-align: center;
+	}
 }
 
 
